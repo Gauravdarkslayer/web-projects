@@ -1,0 +1,97 @@
+<html>
+ <head><title>Forms template</title>
+	<style>
+		#red{
+			background-color: #FFBC42;
+			font-size:20px;
+			width:400px;
+			height:800px;
+		}	
+		
+		
+	
+		
+	</style>
+ </head>
+ <body bgcolor="cyan">
+ <h1><center>Student Survey Form</center></h1>
+	<table id="red" align="center">
+		<tr>
+			<td>First Name </td>
+			<td>:<input type="text"> </td>               
+		</tr>
+	
+	
+		<tr>
+			<td>Last Name</td>
+			<td>:<input type="text"> </td>
+		</tr>
+		<tr>
+				<td>Gender </td>
+				<td>:Male<input  type="Radio" name="Male" value="MALE"></td>
+	
+				
+		</tr>
+
+		<tr>
+				<td> </td>
+				<td>Female<input  type="Radio" name="Male" value="MALE"></td>                         
+		</tr>
+		<tr>
+				<td> Father's name</td>
+				<td>:<input type="text"></td>                         
+		</tr>
+
+		<tr>
+				<td> Mother's name</td>
+				<td>:<input type="text"></td>                         
+		</tr>
+		
+		<tr>
+				<td> Address</td>
+				<td id="add1"><textarea name="addressArea"rows="7" cols="25"> </textarea></td>                         
+		</tr>
+		<tr>
+				<td>Date Of Birth</td>
+				<td>:<input type ="date"/></td>                         
+		</tr>
+		<tr>
+				<td>Email Address</td>
+				<td>:<input type="email"/></td>                         
+		</tr>
+		<tr>
+				<td>Phone Number</td>
+				<td><input type="number" name="phoneNumber" value="number"/></td>                         
+		</tr>
+		<tr>
+				<td>State</td>
+				<td>:<select name="state" size="1">
+						<option selected>
+							Rajasthan
+						</option>
+						<option>
+							Maharastra
+						</option>
+						<option>
+							Uttar pradesh
+						</option>
+						<option>
+							Madhya pradesh
+						</option>
+						<option>
+							
+						</option>
+					</select><br></td>                         
+		</tr>
+
+		<tr>
+			<td>Set Password</td>
+			<td>:<input type="password"/></td>                         
+	</tr>
+	<tr>
+			<td><input type="hidden" value="45" name="ID"/></td>
+			<td><input type="submit" name="submitButton" /></td>                         
+	</tr>
+	</table>	
+ </body>
+</html>
